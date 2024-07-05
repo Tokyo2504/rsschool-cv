@@ -10,7 +10,7 @@
 </head>
 
 <body class="page">
-	<main class="content">
+	<div class="container">
 		<header class="header">
 			<nav class="nav">
 				<ul class="nav__list">
@@ -18,7 +18,7 @@
 						<a href="#" class="nav__link">About</a>
 					</li>
 					<li class="nav__item">
-						<a href="#" class="nav__link">Contact</a>
+						<a href="#" class="nav__link">Contacts</a>
 					</li>
 					<li class="nav__item">
 						<a href="#" class="nav__link">My strengths</a>
@@ -41,142 +41,166 @@
 				</ul>
 			</nav>
 		</header>
-		<aside class="main-info">
-			<header class="main-header">
-				<!--<img src="./img/avatar.jpg" alt="avatar">-->
-				<h1 class="title">Ksenia Volkova</h1>
-				<span class="subtitle">Front-end developer (Beginner)</span>
-			</header>
-			<section class="about">
-				<h2 class="section-title">About Me</h2>
-				<p class="about__text">I am 28 years old and a teacher by training. However, I have realized that this
-					profession is not for me, and have therefore decided to pursue a career in IT. Currently, I am actively
-					studying front-end development and truly enjoy it. I am confident that I will achieve all my objectives and
-					become a professional in the field.</p>
-			</section>
-			<section class="contact">
-				<h2 class="section-title">Contacts</h2>
-				<ul class="contact-list">
-					<li class="contact-list__item">
-						<a class="contact-list__link icon-email" href="mailto:ksu34vol@gamil.com">ksu34vol@gamil.com</a>
-					</li>
-					<li class="contact-list__item">
-						<a class="contact-list__link icon-phone" href="tel:+79195924486">+7 919 592 44 86</a>
-					</li>
-					<li class="contact-list__item">
-						<a class="contact-list__link icon-github" href="https://github.com/Tokyo2504" target="_blank">GitHub</a>
-					</li>
-				</ul>
-			</section>
-			<section class="strengths">
-				<h2 class="section-title">My strengths</h2>
-				<ul class="strengths-list">
-					<li class="strengths-list__item">
-						Quick learner
-					</li>
-					<li class="strengths-list__item">
-						Full immersion in the essence of the problems
-					</li>
-					<li class="strengths-list__item">
-						Diligence
-					</li>
-				</ul>
-			</section>
-		</aside>
-		<div class="info">
-			<section class="skills">
-				<h2 class="section-title">Skills</h2>
-				<ul class="skills-list">
-					<li class="skills-list__item">
-						<span class="skills-list__name">HTML5</span>
-						<span class="skills-list__percent">80%</span>
-					</li>
-					<li class="skills-list__item">
-						<span class="skills-list__name">CSS3 (SCSS)</span>
-						<span class="skills-list__percent">70%</span>
-					</li>
-					<li class="skills-list__item">
-						<span class="skills-list__name">JavaScript</span>
-						<span class="skills-list__percent">30%</span>
-					</li>
-				</ul>
-			</section>
-			<section class="education">
-				<h2 class="section-title">Education</h2>
-				<ul class="education-list">
-					<li class="education-list__item">
-						<div class="education-list__info">
-							<h3 class="education-list__title">Yandex Practicum</h3>
-							<span class="education-list__date">05/2024 - now</span>
-						</div>
-						<p class="education-list__description"><span>Course:</span> Frontend developer</p>
-					</li>
-					<li class="education-list__item">
-						<div class="education-list__info">
-							<h3 class="education-list__title">Rolling Scopes School</h3>
-							<span class="education-list__date">06/2024 - now</span>
-						</div>
-						<p class="education-list__description"><span>Course:</span> JavaScript Pre-school RU</p>
-					</li>
-				</ul>
-			</section>
-			<section class="example">
-				<h2 class="section-title">Code example</h2>
-				<pre>
-					<code>
-						function sum(a, b) {
-							return a + b;
-						}
-						let result = sum(1, 2);
-						alert( result );
-					</code>
-				</pre>
-			</section>
-			<section class="expirience">
-				<h2 class="section-title">Expirience</h2>
-				<ul class="project-list">
-					<li class="project-list__item">
-						<div class="project-card">
-							<img class="project-card__img" src="./img/gallary.png" alt="project gallary">
-							<h3 class="project-card__title">
-								<a class="project__link" href="https://codepen.io/Tokyo45/pen/gOBryBE" target="_blank">
-									Project gallery with cards</a>
-							</h3>
-						</div>
-					</li>
-					<li class="project-list__item">
-						<div class="project-card">
-							<img class="project-card__img" src="./img/drag_and_drop.png" alt="project drag and drop">
-							<h3 class="project-card__title">
-								<a class="project__link" href="https://codepen.io/Tokyo45/pen/qBJNRBz" target="_blank">
-									Project Drag&Drop</a>
-							</h3>
-						</div>
-					</li>
-				</ul>
-			</section>
-			<section class="languages">
-				<h2 class="section-title">Languages</h2>
-				<ul class="languages-list">
-					<li class="languages-list__item">
-						Russian - native speaker
-					</li>
-					<li class="languages-list__item">
-						English - A1
-					</li>
-				</ul>
-			</section>
-		</div>
+		<main class="content">
+			<aside class="main-info">
+				<header class="main-header">
+					<img class="main-header__img" src="./img/avatar.jpg" alt="avatar">
+					<h1 class="main-header__title">Ksenia Volkova</h1>
+					<span class="main-header__subtitle">Front-end developer (Beginner)</span>
+				</header>
+				<section class="about">
+					<h2 class="section-title">About Me</h2>
+					<p class="about__text">I am 28 years old and a teacher by training. However, I have realized that this
+						profession is not for me, and have therefore decided to pursue a career in IT. Currently, I am actively
+						studying front-end development and truly enjoy it. I am confident that I will achieve all my objectives and
+						become a professional in the field.</p>
+				</section>
+				<section class="contact">
+					<h2 class="section-title">Contacts</h2>
+					<ul class="contact-list">
+						<li class="contact-list__item">
+							<a class="contact-list__link" href="mailto:ksu34vol@gamil.com">
+								<svg class="contact-list__icon" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_2_232)">
+										<path
+											d="M13.7437 5C13.7437 4.55 13.5125 4.15625 13.1562 3.9375L7.5 0.625L1.84375 3.9375C1.4875 4.15625 1.25 4.55 1.25 5V11.25C1.25 11.9375 1.8125 12.5 2.5 12.5H12.5C13.1875 12.5 13.75 11.9375 13.75 11.25L13.7437 5ZM12.4937 5V5.00625L7.5 8.125L2.5 5L7.5 2.075L12.4937 5ZM2.5 11.25V6.4625L7.5 9.6L12.4937 6.48125L12.5 11.25H2.5Z" />
+									</g>
+									<defs>
+										<clipPath id="clip0_2_232">
+											<rect width="15" height="15" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+						</li>
+						<li class="contact-list__item">
+							<a class="contact-list__link" href="tel:+79195924486">
+								<svg class="contact-list__icon" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_2_242)">
+										<path
+											d="M10.6251 0.63125L4.3751 0.625C3.6876 0.625 3.13135 1.1875 3.13135 1.875V13.125C3.13135 13.8125 3.6876 14.375 4.3751 14.375H10.6251C11.3126 14.375 11.8751 13.8125 11.8751 13.125V1.875C11.8751 1.1875 11.3126 0.63125 10.6251 0.63125ZM10.6251 11.875H4.3751V3.125H10.6251V11.875Z" />
+									</g>
+									<defs>
+										<clipPath id="clip0_2_242">
+											<rect width="15" height="15" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+						</li>
+						<li class="contact-list__item">
+							<a class="contact-list__link" href="https://github.com/Tokyo2504" target="_blank">
+								<svg class="contact-list__icon" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_2_245)">
+										<path
+											d="M2.47494 7.1125C2.64994 6.19375 3.51244 5.5625 4.44994 5.5625H6.28119C6.60619 5.5625 6.87494 5.29375 6.87494 4.96875C6.87494 4.64375 6.60619 4.375 6.28119 4.375H4.51244C2.88119 4.375 1.42494 5.56875 1.26869 7.19375C1.08744 9.05625 2.54994 10.625 4.37494 10.625H6.28119C6.60619 10.625 6.87494 10.3562 6.87494 10.0312C6.87494 9.70625 6.60619 9.4375 6.28119 9.4375H4.37494C3.18119 9.4375 2.23744 8.35 2.47494 7.1125ZM5.62494 8.125H9.37494C9.71869 8.125 9.99994 7.84375 9.99994 7.5C9.99994 7.15625 9.71869 6.875 9.37494 6.875H5.62494C5.28119 6.875 4.99994 7.15625 4.99994 7.5C4.99994 7.84375 5.28119 8.125 5.62494 8.125ZM10.4874 4.375H8.71869C8.39369 4.375 8.12494 4.64375 8.12494 4.96875C8.12494 5.29375 8.39369 5.5625 8.71869 5.5625H10.5499C11.4874 5.5625 12.3499 6.19375 12.5249 7.1125C12.7624 8.35 11.8187 9.4375 10.6249 9.4375H8.71869C8.39369 9.4375 8.12494 9.70625 8.12494 10.0312C8.12494 10.3562 8.39369 10.625 8.71869 10.625H10.6249C12.4499 10.625 13.9124 9.05625 13.7374 7.19375C13.5812 5.56875 12.1187 4.375 10.4874 4.375Z" />
+									</g>
+									<defs>
+										<clipPath id="clip0_2_245">
+											<rect width="15" height="15" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</section>
+				<section class="strengths">
+					<h2 class="section-title">My strengths</h2>
+					<ul class="strengths-list">
+						<li class="strengths-list__item">
+							Quick learner
+						</li>
+						<li class="strengths-list__item">
+							Full immersion in the essence of the problems
+						</li>
+						<li class="strengths-list__item">
+							Diligence
+						</li>
+					</ul>
+				</section>
+			</aside>
+			<div class="info">
+				<section class="skills">
+					<h2 class="section-title section-title--bg">Skills</h2>
+					<ul class="skills-list">
+						<li class="skills-list__item">
+							<span class="skills-list__name">HTML5</span>
+						</li>
+						<li class="skills-list__item">
+							<span class="skills-list__name">CSS3 (SCSS)</span>
+						</li>
+						<li class="skills-list__item">
+							<span class="skills-list__name">JavaScript</span>
+						</li>
+					</ul>
+				</section>
+				<section class="education">
+					<h2 class="section-title section-title--bg">Education</h2>
+					<ul class="education-list">
+						<li class="education-list__item">
+							<div class="education-list__info">
+								<h3 class="education-list__title">Yandex Practicum</h3>
+								<span class="education-list__date">05/2024 - now</span>
+							</div>
+							<p class="education-list__description"><span>Course:</span> Frontend developer</p>
+						</li>
+						<li class="education-list__item">
+							<div class="education-list__info">
+								<h3 class="education-list__title">Rolling Scopes School</h3>
+								<span class="education-list__date">06/2024 - now</span>
+							</div>
+							<p class="education-list__description"><span>Course:</span> JavaScript Pre-school RU</p>
+						</li>
+					</ul>
+				</section>
+				<section class="example">
+					<h2 class="section-title section-title--bg">Code example</h2>
+					<pre><code>function sum(a, b) {return a + b;}
+console.log(sum(5, 7));
+					</code></pre>
+				</section>
+				<section class="expirience">
+					<h2 class="section-title section-title--bg">Expirience</h2>
+					<ul class="project-list">
+						<li class="project-list__item">
+							<span class="project-list__heading">Project gallery with cards</span>
+							<a class="project-list__link" href="https://codepen.io/Tokyo45/pen/gOBryBE" target="_blank">
+								<img class="project-list__img" src="./img/gallary.png" alt="gallary">
+							</a>
+						</li>
+						<li class="project-list__item">
+							<span class="project-list__heading">Project Drag&Drop</span>
+							<a class="project-list__link" href="https://codepen.io/Tokyo45/pen/qBJNRBz" target="_blank">
+								<img class="project-list__img" src="./img/drag_and_drop.png" alt="drag and drop">
+							</a>
+						</li>
+					</ul>
+				</section>
+				<section class="languages">
+					<h2 class="section-title section-title--bg">Languages</h2>
+					<ul class="languages-list">
+						<li class="languages-list__item">
+							Russian - native speaker
+						</li>
+						<li class="languages-list__item">
+							English - A1
+						</li>
+					</ul>
+				</section>
+			</div>
+		</main>
 		<footer class="footer">
 			<a class="footer__link" href="https://github.com/Tokyo2504" target="_blank">
-				<img src="./img/github.svg" alt="GitHub icon">
+				<img class="footer__icon" src="./img/github.svg" alt="GitHub icon">
+				<span>Visit my GitHub</span>
 			</a>
-			<span class="footer__date">2024г.</span>
+			<span class="footer__date">July 2024г.</span>
 			<a class="footer__logo" href="https://rs.school/courses/javascript-ru" target="_blank">
 				<img src="./img/rs-school-logo.svg" alt="Logo RSScool">
 			</a>
 		</footer>
-	</main>
+	</div>
 </body>
 
 </html>

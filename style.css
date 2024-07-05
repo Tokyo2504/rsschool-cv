@@ -1,0 +1,298 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	block-size: 100%;
+}
+
+.page {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+blockquote,
+fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 20px auto;
+	box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+	line-height: 1.5;
+	background-color: #ffffff;
+}
+
+.header {
+	padding: 20px;
+	background-color: #fff;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 40% 60%;
+	overflow-x: hidden;
+}
+
+.nav__list {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.nav__link {
+	color: #1e1e1e;
+	font-weight: 700;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.main-info {
+	padding: 20px 35px;
+	background-color: #2d0e82;
+}
+
+.main-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+	padding-bottom: 20px;
+}
+
+.main-header__title {
+	margin-top: 10px;
+	font-weight: 700;
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+
+.main-header__subtitle {
+	margin-top: 3px;
+	color: #febc2c;
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.main-header__img {
+	width: 210px;
+	height: 210px;
+	border: 5px solid #febc2c;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.section-title {
+	color: #fff;
+	font-weight: 400;
+	font-size: 32px;
+}
+
+.section-title--bg {
+	color: #1e1e1e;
+	text-align: center;
+	background-color: #febc2c;
+}
+
+.about {
+	padding-top: 20px;
+}
+
+.contact {
+	padding-top: 45px;
+}
+
+.contact-list {
+	display: flex;
+	gap: 30px;
+	padding-top: 15px;
+}
+
+.contact-list__item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 45px;
+	height: 45px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #febc2c;
+}
+
+.contact-list__link {
+	display: block;
+	width: 35px;
+	height: 35px;
+}
+
+.contact-list__icon {
+	width: 100%;
+	height: 100%;
+	fill: #2d0e82;
+}
+
+.strengths {
+	padding-top: 45px;
+}
+
+.strengths-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 20px;
+	list-style: square;
+}
+
+.info {
+	padding: 20px;
+	color: #1e1e1e;
+	background-color: #fff;
+}
+
+.skills-list {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+}
+
+.skills-list__name {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.education {
+	padding-top: 30px;
+}
+
+.education-list__item {
+	display: flex;
+	justify-content: space-between;
+	padding-block: 15px;
+}
+
+.education-list__item:not(:last-child) {
+	border-bottom: 1px solid #1e1e1e;
+}
+
+.education-list__date {
+	display: inline-block;
+	margin-top: 5px;
+	border-radius: 5px;
+	padding: 5px;
+	color: #2d0e82;
+	background-color: #ffc13c;
+}
+
+.education-list__description {
+	align-self: center;
+	min-width: 300px;
+}
+
+.education-list__description span {
+	font-weight: 700;
+}
+
+.example {
+	padding-top: 50px;
+}
+
+.project-list {
+	display: flex;
+	justify-content: space-around;
+	gap: 20px;
+	padding-block: 20px;
+}
+
+.project-list__item {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.project-list__img {
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.project-list__heading {
+	color: #1e1e1e;
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+}
+
+.languages {
+	padding-top: 20px;
+}
+
+.languages-list {
+	padding-top: 20px;
+}
+
+.languages-list__item {
+	color: #1e1e1e;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	color: #1e1e1e;
+}
+
+.footer__link {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: inherit;
+	font-weight: 700;
+}
+
+.footer__icon {
+	width: 30px;
+	height: 30px;
+}
+
+.footer__date {
+	font-weight: 700;
+}
+
+.footer__logo {
+	display: block;
+	width: 200px;
+	object-fit: cover;
+}
