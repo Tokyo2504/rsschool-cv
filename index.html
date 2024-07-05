@@ -6,11 +6,177 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./fonts/fonts.css">
 	<link rel="stylesheet" href="style.css">
-	<title>Document</title>
+	<title>CV</title>
 </head>
 
-<body>
-
+<body class="page">
+	<main class="content">
+		<header class="header">
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#" class="nav__link">About</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Contact</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">My strengths</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Skills</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Education</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Code example</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Expirience</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Languages</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<aside class="main-info">
+			<header class="main-header">
+				<!--<img src="./img/avatar.jpg" alt="avatar">-->
+				<h1 class="title">Ksenia Volkova</h1>
+				<span class="subtitle">Front-end developer (Beginner)</span>
+			</header>
+			<section class="about">
+				<h2 class="section-title">About Me</h2>
+				<p class="about__text">I am 28 years old and a teacher by training. However, I have realized that this
+					profession is not for me, and have therefore decided to pursue a career in IT. Currently, I am actively
+					studying front-end development and truly enjoy it. I am confident that I will achieve all my objectives and
+					become a professional in the field.</p>
+			</section>
+			<section class="contact">
+				<h2 class="section-title">Contacts</h2>
+				<ul class="contact-list">
+					<li class="contact-list__item">
+						<a class="contact-list__link icon-email" href="mailto:ksu34vol@gamil.com">ksu34vol@gamil.com</a>
+					</li>
+					<li class="contact-list__item">
+						<a class="contact-list__link icon-phone" href="tel:+79195924486">+7 919 592 44 86</a>
+					</li>
+					<li class="contact-list__item">
+						<a class="contact-list__link icon-github" href="https://github.com/Tokyo2504" target="_blank">GitHub</a>
+					</li>
+				</ul>
+			</section>
+			<section class="strengths">
+				<h2 class="section-title">My strengths</h2>
+				<ul class="strengths-list">
+					<li class="strengths-list__item">
+						Quick learner
+					</li>
+					<li class="strengths-list__item">
+						Full immersion in the essence of the problems
+					</li>
+					<li class="strengths-list__item">
+						Diligence
+					</li>
+				</ul>
+			</section>
+		</aside>
+		<div class="info">
+			<section class="skills">
+				<h2 class="section-title">Skills</h2>
+				<ul class="skills-list">
+					<li class="skills-list__item">
+						<span class="skills-list__name">HTML5</span>
+						<span class="skills-list__percent">80%</span>
+					</li>
+					<li class="skills-list__item">
+						<span class="skills-list__name">CSS3 (SCSS)</span>
+						<span class="skills-list__percent">70%</span>
+					</li>
+					<li class="skills-list__item">
+						<span class="skills-list__name">JavaScript</span>
+						<span class="skills-list__percent">30%</span>
+					</li>
+				</ul>
+			</section>
+			<section class="education">
+				<h2 class="section-title">Education</h2>
+				<ul class="education-list">
+					<li class="education-list__item">
+						<div class="education-list__info">
+							<h3 class="education-list__title">Yandex Practicum</h3>
+							<span class="education-list__date">05/2024 - now</span>
+						</div>
+						<p class="education-list__description"><span>Course:</span> Frontend developer</p>
+					</li>
+					<li class="education-list__item">
+						<div class="education-list__info">
+							<h3 class="education-list__title">Rolling Scopes School</h3>
+							<span class="education-list__date">06/2024 - now</span>
+						</div>
+						<p class="education-list__description"><span>Course:</span> JavaScript Pre-school RU</p>
+					</li>
+				</ul>
+			</section>
+			<section class="example">
+				<h2 class="section-title">Code example</h2>
+				<pre>
+					<code>
+						function sum(a, b) {
+							return a + b;
+						}
+						let result = sum(1, 2);
+						alert( result );
+					</code>
+				</pre>
+			</section>
+			<section class="expirience">
+				<h2 class="section-title">Expirience</h2>
+				<ul class="project-list">
+					<li class="project-list__item">
+						<div class="project-card">
+							<img class="project-card__img" src="./img/gallary.png" alt="project gallary">
+							<h3 class="project-card__title">
+								<a class="project__link" href="https://codepen.io/Tokyo45/pen/gOBryBE" target="_blank">
+									Project gallery with cards</a>
+							</h3>
+						</div>
+					</li>
+					<li class="project-list__item">
+						<div class="project-card">
+							<img class="project-card__img" src="./img/drag_and_drop.png" alt="project drag and drop">
+							<h3 class="project-card__title">
+								<a class="project__link" href="https://codepen.io/Tokyo45/pen/qBJNRBz" target="_blank">
+									Project Drag&Drop</a>
+							</h3>
+						</div>
+					</li>
+				</ul>
+			</section>
+			<section class="languages">
+				<h2 class="section-title">Languages</h2>
+				<ul class="languages-list">
+					<li class="languages-list__item">
+						Russian - native speaker
+					</li>
+					<li class="languages-list__item">
+						English - A1
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer class="footer">
+			<a class="footer__link" href="https://github.com/Tokyo2504" target="_blank">
+				<img src="./img/github.svg" alt="GitHub icon">
+			</a>
+			<span class="footer__date">2024г.</span>
+			<a class="footer__logo" href="https://rs.school/courses/javascript-ru" target="_blank">
+				<img src="./img/rs-school-logo.svg" alt="Logo RSScool">
+			</a>
+		</footer>
+	</main>
 </body>
 
 </html>
