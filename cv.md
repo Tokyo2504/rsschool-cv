@@ -18,6 +18,10 @@ I am 28 years old and a teacher by training. However, I have realized that this 
 * JavaScript Basics
 * Git/GitHub
 
+## Education
+* **Yandex Practicum(currently studying):** сourse Frontend developer.
+* **Rolling Scopes School(currently studying):** сourse JavaScript Pre-school RU.
+
 ## Code Examples
 ```
 function sum(a, b) {
@@ -26,3 +30,11 @@ function sum(a, b) {
 let result = sum(1, 2);
 alert( result );
 ```
+
+## Expirience
+* [Project gallery with cards](https://codepen.io/Tokyo45/pen/gOBryBE)
+* [Project Drag&Drop](https://codepen.io/Tokyo45/pen/qBJNRBz)
+
+## Languages
+* Russian - native speaker
+* English - A1
